@@ -1,0 +1,26 @@
+.common__section {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.562),
+      rgba(255, 255, 255, 0.562)
+    ),
+    url("../assets/images/xMasBanner2022.png") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.common__section h1 {
+  font-size: 600;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 769px) {
+  .common__section {
+    padding: 70px 0px;
+  }
+
+  .common__section h1 {
+    font-size: 1.4rem;
+  }
+}
